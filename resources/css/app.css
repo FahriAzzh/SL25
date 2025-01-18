@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.cdnfonts.com/css/super-feel');
+
+@layer base {
+    @font-face {
+      font-family: 'superfeel';
+      font-style: normal;
+      font-weight: normal;
+      font-display: swap;
+      src: url('/fonts/SuperFeel.ttf') format('.ttf');
+    }
+  }
+
+[x-cloak] {
+    display: none;
+}
+
